@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.RegisterActivity"
+    android:background="@color/background_color">
+
+    <TextView
+        android:id="@+id/login_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/register"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/login_text_view"
+        tools:layout_editor_absoluteX="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/enter_login"
+            android:paddingVertical="14dp"
+            android:paddingLeft="20dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/enter_pass"
+            android:inputType="textPassword"
+            android:maxWidth="10dp"
+            android:paddingVertical="14dp"
+            android:paddingLeft="20dp" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass_confirm_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/confirm_pass"
+            android:inputType="textPassword"
+            android:maxWidth="10dp"
+            android:paddingVertical="14dp"
+            android:paddingLeft="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_color"
+            android:onClick="OnSignUpBtnClick"
+            android:paddingHorizontal="80dp"
+
+            android:paddingVertical="14dp"
+            android:text="@string/sign_up"
+            android:textColor="@color/background_color" />
+
+        <Button
+            android:id="@+id/return_to_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@color/background_color"
+            android:onClick="OnReturnLoginBtnClick"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="1dp"
+            android:text="@string/have_account"
+            android:textColor="@color/primary_color" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

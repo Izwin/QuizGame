@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Викторина</string>
+    <string name="login" translatable="false">Вход</string>
+    <string name="register">Регистрация</string>
+    <string name="enter_login">Введите логин</string>
+    <string name="enter_pass">Введите пароль</string>
+    <string name="confirm_pass">Повторите пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="have_account">Уже есть аккаунт</string>
+    <string name="empty_fields">Пожалуйста, заполните все поля!</string>
+    <string name="pass_not_equal">Пароли не совпадают!</string>
+    <string name="login_err">Логин занят</string>
+    <string name="passincorrect">Аккаунт не найден!</string>
+    <string name="main_nav_item">Главная</string>
+    <string name="leader_nav_item">Лидеры</string>
+    <string name="profile_nav_item">Профиль</string>
+    <string name="results">Результаты</string>
+    <string name="settings">Настройки</string>
+    <string name="testscompleted">Тестов завершено</string>
+    <string name="average_score">Средний балл</string>
+    <string name="exit">Выход</string>
+    <string name="mainscreentext">Главная</string>
+    <string name="questions">Вопросов: </string>
+    <string name="pressandhold">Нажмите и удерживайте!</string>
+    <string name="true_text">Правда</string>
+    <string name="false_text">Ложь</string>
+    <string name="excellent">Отлично!</string>
+    <string name="good">Хорошо!</string>
+    <string name="average">Средне!</string>
+    <string name="bad">Плохо!</string>
+    <string name="leaderboard">Лидеры</string>
+    <string name="my_results">Мои результаты</string>
+    <string name="username">Логин</string>
+    <string name="score">Балл</string>
+    <string name="empty">Ничего не найдено!</string>
+    <string name="return_to_main">На главную!</string>
+    <string name="time">Времени прошло</string>
+    <string name="delete_all_results">Удалить результаты</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
