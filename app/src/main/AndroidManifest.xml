@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mvvmtest">
+    package="com.izwin.mvvmtest">
 
     <application
         android:allowBackup="true"
@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MvvmTest">
-        <activity android:name=".view.MainScreenActivity">
+        <activity android:name="com.izwin.mvvmtest.view.MainScreenActivity">
         </activity>
-        <activity android:name=".view.RegisterActivity" />
-        <activity android:name=".view.LoginActivity">
+        <activity android:name="com.izwin.mvvmtest.view.RegisterActivity" />
+        <activity android:name="com.izwin.mvvmtest.view.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

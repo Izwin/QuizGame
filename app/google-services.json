@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:658929943527:android:a9c37e9f117927b5e67342",
         "android_client_info": {
-          "package_name": "com.example.mvvmtest"
+          "package_name": "com.izwin.mvvmtest"
         }
       },
       "oauth_client": [

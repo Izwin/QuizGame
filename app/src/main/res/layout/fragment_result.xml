@@ -6,7 +6,7 @@
     <data>
         <variable
             name="ResultViewModel"
-            type="com.example.mvvmtest.viewmodel.ResultViewModel" />
+            type="com.izwin.mvvmtest.viewmodel.ResultViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -5,7 +5,7 @@
     <data>
         <variable
             name="GameViewModel"
-            type="com.example.mvvmtest.viewmodel.GameViewModel" />
+            type="com.izwin.mvvmtest.viewmodel.GameViewModel" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
