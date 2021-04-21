@@ -39,7 +39,6 @@ public class Repo {
 
     private Repo(){
         loadUsers();
-        sendQuizItems();
         loadQuizItems();
     }
     public ArrayList<UserModel> getUserList(){
